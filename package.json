@@ -7,7 +7,7 @@
     "express": "~4.16.0",
     "passport-local": "~0.1.6",
     "lodash": "~4.17.5",
-    "snyk": "^1.108.2"
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -38,7 +38,8 @@
   },
   "scripts": {
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "snyk": true
 }
